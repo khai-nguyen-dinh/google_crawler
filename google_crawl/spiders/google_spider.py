@@ -1,6 +1,6 @@
 import json
 import scrapy
-from bs4 import BeautifulSoup
+
 
 from google_crawl.items import GoogleCrawlItem
 
