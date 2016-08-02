@@ -1,0 +1,2 @@
+-site:wikipedia.org
+-site:wikipedia.com
