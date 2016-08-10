@@ -23,7 +23,9 @@ class GoogleCrawlPipeline(object):
         self.collection_name = spider.name
         self.client = pymongo.MongoClient(self.mongo_uri)
         self.db = self.client[self.mongo_db]
-        self.db.drop_collection(self.collection_name)
+
+        # disable drop by default
+        # self.db.drop_collection(self.collection_name)
 
     def close_spider(self, spider):
         self.client.close()

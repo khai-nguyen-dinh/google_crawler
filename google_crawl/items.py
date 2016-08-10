@@ -11,4 +11,5 @@ class GoogleCrawlItem(scrapy.Item):
     url = scrapy.Field()
     title = scrapy.Field()
     content = scrapy.Field()
-    image = scrapy.Field()
+    # country = scrapy.Field()
+    # category = scrapy.Field()
